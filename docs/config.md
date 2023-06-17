@@ -19,14 +19,14 @@ description: "Example config file for JMusicBot"
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = BOT_TOKEN_HERE
+token = MTExMjgxMzg3NjYwNjY3NzExMg.GC6bW2.AxxHr6uSCC1THyIRd099ypbBxpe5Heg8u7d-n4
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 0
+owner = 1094905099274428428
 
 
 // This sets the prefix for the bot
@@ -44,7 +44,7 @@ prefix = "@mention"
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = "DEFAULT"
+game = Playing Top Bins Soccer
 
 
 // If you set this, it will modify the default status of bot
@@ -57,7 +57,7 @@ status = ONLINE
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus=false
+songinstatus=true
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -79,7 +79,7 @@ searching = "🔎"
 // For example, if you set the prefix to !! and the help to cmds, you would type
 // !!cmds to see the help text
 
-help = help
+help = !!cmds
 
 
 // If you set this, the "nowplaying" command will show youtube thumbnails
@@ -87,14 +87,14 @@ help = help
 // This is because refreshing the boxes causes the image to be reloaded
 // every time it refreshes.
 
-npimages = false
+npimages = true
 
 
 // If you set this, the bot will not leave a voice channel after it finishes a queue.
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = false
+stayinchannel = true
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
@@ -186,6 +186,6 @@ aliases {
 // DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT THIS DOES OR HOW TO USE IT
 // IF SOMEONE ASKS YOU TO ENABLE THIS, THERE IS AN 11/10 CHANCE THEY ARE TRYING TO SCAM YOU
 
-eval=false
+eval=true
 
-```
+true
